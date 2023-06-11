@@ -4,59 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/91a843f5d1.js"
-      crossorigin="anonymous"
-    ></script>
-    <meta name="description" content="This is a template of an email" />
-    <title>An Email Template</title>
-    <link rel="stylesheet" href="/src/style.css" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="styling.css" />
   </head>
   <body>
-    <div class="email-template-container">
-      <h1>reset password</h1>
+    <table width="400" height="350" class="email-template">
+      <thead>
+        <tr>
+          <th colspan="3">Reset password</th>
+        </tr>
+      </thead>
 
-      <span class="email-content">
-        <span class="greeting">
-          Hello, { <span class="name">Admin name</span> }👋
-        </span>
-
-        <br />
-        <br />
-        Please click the button below to reset your password
-        <br />
-        <br />
-        <button>Reset Password</button>
-        <br />
-        <br />
-
-        Kindly ignore this mail if you didn't request for a new password.
-      </span>
-
-      <span class="special-text">
-        <strong> Enjoy Payslip Automation as its fastest😁 </strong></span
-      >
-      <span class="closing-remark email-content"
-        >Warm regards, <br />
-        [Marketing personnel's name] from Payroll Easy
-      </span>
-    </div>
-
-    <footer>
-      <span class="footer-text">
-        <span>Phone: 02892921928</span>
-
-        <div>
-          <a href="mailto:Shai@payrolleasy.co.uk"
-            >Email: Shai@payrolleasy.co.uk</a
-          >
-        </div>
-        <div class="icons">
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-linkedin-in"></i>
-        </div>
-      </span>
-    </footer>
+      <tbody>
+        <tr>
+          <td colspan="3">Hello,{ <span> Admin Name </span>}👋</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            please click the button below to reset your password
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3"><button>Reset Password</button></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            Kindly ignore this email if you didn't request for a new password.
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">Enjoy Payslip Automation at it's fastest 😁</td>
+        </tr>
+        <tr>
+          <td colspan="3">Warm Regards,</td>
+        </tr>
+        <tr>
+          <td colspan="3">[Marketing personnel's name] from Payroll Easy</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
